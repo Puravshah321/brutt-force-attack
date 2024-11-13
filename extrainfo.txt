@@ -1,0 +1,17 @@
+192.168.166.100
+echo %errorlevel%(in cmd     C:\Users\LENOVO>net use \\192.168.166.100 /user:user 1234123
+System error 1326 has occurred.
+The user name or password is incorrect.
+C:\Users\LENOVO>echo %errorlevel%
+2
+C:\Users\LENOVO>net use \\192.168.166.100
+The command completed successfully.
+C:\Users\LENOVO>echo %errorlevel%
+0)
+
+
+LENOVO #Puravshah321
+
+net user
+
+#C:\Users\LENOVO>netsh wlan show profile name=dipen12345 key=clear
